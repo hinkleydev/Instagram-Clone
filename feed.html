@@ -1,15 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Multigram</title>
+    <title>Instagram-like Page</title>
+    <script
+      src="https://kit.fontawesome.com/4dba44343b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="feedstyle.css" />
   </head>
   <body>
-    <h1>Feed Page</h1>
+    <div class="navbar">
+      <div class="navbar-left">Instagram</div>
+      <i class="fa-solid fa-chevron-down"></i>
+      <div class="navbar-right">
+        <span class="icon"><i class="fa-thin fa-square-plus"></i></span>
+        <span class="icon"><i class="fa-thin fa-heart"></i></span>
+      </div>
+      <hr />
+    </div>
 
-    <script src="script.js"></script>
+    <div class="main-content">
+      <div class="post">
+        <div class="post-header">
+          <div class="user-info">
+            <div class="user-icon"></div>
+            <div class="user-details">
+              <span class="username">joinmultiverse</span>
+              <span class="song-title">SZA・Kill Bill (Spend Up Version)</span>
+            </div>
+          </div>
+          <div class="more-options">...</div>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D"
+          alt="Post Image"
+          class="post-image"
+        />
+        <div class="post-actions">
+          <div class="left-actions">
+            <span class="like-icon">♡</span>
+            <span class="save-icon">⌽</span>
+            <span class="share-icon">⌲</span>
+          </div>
+          <div class="likes-count">427 likes</div>
+          <div class="caption">joinmultiverse would you do this?... more</div>
+          <div class="right-actions">⎐</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
