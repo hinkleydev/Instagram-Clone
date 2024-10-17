@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa; /* Light background */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* White background for the navbar */
+  border-bottom: 1px solid #dbdbdb; /* Thin white line at the bottom */
+}
+
+.navbar-left {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  font-size: 20px;
+}
+
+.icon {
+  margin-left: 20px; /* Space between icons */
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.post {
+  background-color: #fff; /* White background for posts */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  overflow: hidden;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Round icon */
+  background-color: white; /* White background for the icon */
+  border: 1px solid #dbdbdb; /* Border around the icon */
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.song-title {
+  display: block; /* Makes it appear as a block under the username */
+  font-size: 12px;
+  color: #888; /* Grey color for the song title */
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+.post-actions {
+  padding: 10px;
+}
+
+.left-actions {
+  display: flex;
+  align-items: center;
+}
+
+.left-actions .like-icon,
+.left-actions .save-icon,
+.left-actions .share-icon {
+  margin-right: 15px; /* Space between icons */
+}
+
+.likes-count {
+  margin: 10px 0; /* Margin for the likes count */
+  font-weight: bold; /* Bold text */
+}
+
+.caption {
+  font-size: 14px; /* Caption font size */
+  color: #333; /* Dark grey color for the caption */
+}
+
+.right-actions {
+  text-align: right; /* Align right */
+  font-size: 24px; /* Larger size for the action */
+}
