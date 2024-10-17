@@ -1,0 +1,14 @@
+/* Account page */
+
+.profile-intro > span {
+    width: 70%;
+    font-size: 2em;
+    padding: 0 1vw 0 1vw;
+}
+
+.photos {
+    grid-template-columns: auto auto auto;
+    width: 30%;
+    display: flex;
+    column-gap: 1%;
+}
